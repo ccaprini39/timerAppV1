@@ -1,0 +1,30 @@
+package blahBlah;
+
+//import java.util.Map;
+
+public class Timer {
+	
+	private String name;
+	private int workTime = 0;
+	private int restTime = 0;
+	private int roundNumber = 0;
+	private int totalRounds = 0;
+	
+	public Timer(String givenName,int givenWork, int givenRest, int givenTotalRounds) {
+		this.name = givenName;
+		this.restTime = givenRest;
+		this.workTime = givenWork;
+		this.totalRounds = givenTotalRounds;
+	}
+	
+	public void printTimerInfo() {
+		System.out.println("Name: " + this.name);
+		System.out.println("Work time: " + this.workTime);
+		System.out.println("Name: " + this.restTime);
+		System.out.println("Current Round: " + this.roundNumber);
+		System.out.println("Total Rounds: " + this.totalRounds);
+		
+	}
+	
+
+}

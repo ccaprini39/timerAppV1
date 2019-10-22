@@ -1,0 +1,14 @@
+package blahBlah;
+
+public class Tester {
+
+	public static void main(String[] args) {
+		
+		System.out.println("This is working now");
+		Timer t = new Timer("cat", 60, 30, 5);
+		t.printTimerInfo();
+		System.out.println();
+
+	}
+
+}

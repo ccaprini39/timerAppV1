@@ -1,0 +1,6 @@
+---
+name: "cat"
+workTime: 60
+restTime: 30
+roundNumber: 1
+totalRounds: 5
